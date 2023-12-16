@@ -14,6 +14,7 @@
 		BA5770E02B2D0E4B003DDEC9 /* testCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5770DF2B2D0E4B003DDEC9 /* testCombineTests.swift */; };
 		BA5770EA2B2D0E4B003DDEC9 /* testCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5770E92B2D0E4B003DDEC9 /* testCombineUITests.swift */; };
 		BA5770EC2B2D0E4B003DDEC9 /* testCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5770EB2B2D0E4B003DDEC9 /* testCombineUITestsLaunchTests.swift */; };
+		BA5770F92B2D0E76003DDEC9 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5770F82B2D0E76003DDEC9 /* Modelo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BA5770E52B2D0E4B003DDEC9 /* testCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5770E92B2D0E4B003DDEC9 /* testCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCombineUITests.swift; sourceTree = "<group>"; };
 		BA5770EB2B2D0E4B003DDEC9 /* testCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA5770F82B2D0E76003DDEC9 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BA5770D02B2D0E49003DDEC9 /* ContentView.swift */,
 				BA5770D22B2D0E4B003DDEC9 /* Assets.xcassets */,
 				BA5770D42B2D0E4B003DDEC9 /* Preview Content */,
+				BA5770F82B2D0E76003DDEC9 /* Modelo.swift */,
 			);
 			path = testCombine;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5770F92B2D0E76003DDEC9 /* Modelo.swift in Sources */,
 				BA5770D12B2D0E49003DDEC9 /* ContentView.swift in Sources */,
 				BA5770CF2B2D0E49003DDEC9 /* testCombineApp.swift in Sources */,
 			);

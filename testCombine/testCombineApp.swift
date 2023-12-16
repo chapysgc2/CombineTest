@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct testCombineApp: App {
+    var modelo = Modelo()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(modelo)
         }
     }
 }
